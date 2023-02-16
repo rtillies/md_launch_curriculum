@@ -1,0 +1,1 @@
+Something like Ruby Exercises - some required, some optional/additional learning.

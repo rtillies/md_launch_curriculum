@@ -141,25 +141,33 @@ Test DB connections and records
   Lab Project: User SQL to select related records
 * PD POTENTIAL: Practice sending and responding to requests for other teams (as a dev you won't always be coding, you will be asked for datapoints from other teams.)
 ### Week 4
-* Lesson: Intro to ORM (Migrations & Schema)
-    - Define ORM
+
+* ➡️[Preparation: LINQ]()
+* 🎒[Lesson: LINQ]()
+* 💡[Lab/Exercise: LINQ]()
+* ➡️[Preparation: Intro to ORM](/Mod2/Preparation/Week4/IntroToORM.md)
+* 🎒[Lesson: Intro to ORM](/Mod2/Lessons/Week4/IntroToORM.md)
+    - Define ORM and Framework
     - Describe the benefits of working with Objects
-    - Set up Entity Framework in a Console Application  
-  Lab Project: Create Db connection
+    - Set up Entity Framework in a Console Application
+    - Create a one-to-many relationship using an ORM
+* 💡 [Lab/Exercise: ](/Mod2/Labs/Week4/IntroToORM.md) Create one-to-many book and patrons tables using EF
 * Lesson: CRUD with ORM
     - Deepen understanding of test setup by creating a test database
     - Use TDD to implement CRUD functionality in a console application  
-  Lab Project: Use TDD and EF to create library records
-### Week 5
-* Lesson: Querying Resources with ORM
     - Use EF and LINQ to query database records
-    - Define 'framework'  
-  Lab Project: Use TDD to query library records
+  Lab Project: Use TDD and EF to create library records
+
+### Week 5
 * Lesson: Migrations and changing Db tables
     - Explore business decisions that drive DB changes
     - Practice making simple db changes
     - Describe the dangers of database changes  
   Lab Project: use a migration to add a table to the database
+* Lesson: Many-to-Many using an ORM
+    -   Reinforce how to structure many-to-many database relationships
+    -   Implement a many-to-many relationship using EF
+  Lab Project: Create whatever the many to many relationship was from the library DB using EF
 
 ## Mod 3
 ### Week 1
