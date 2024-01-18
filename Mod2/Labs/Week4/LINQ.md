@@ -1,1 +1,13 @@
-Something like Ruby Exercises - some required, some optional/additional learning.
+## Lab Objectives
+* Practice LINQ methods from the lesson
+* Use research skills to learn a new LINQ method
+
+** Instructor Note ** This could be a good lab to have two larger groups of students - one where students want to collab and work together in small groups, and another with independent workers.
+
+## LINQ Exercises
+
+Fork and clone [this repository](https://github.com/turingschool-examples/Launch_LinqExercises) and follow the instructions in the Readme.
+
+## Exit Ticket
+
+At the end of the lab time, commit your work (its expected that you will not finish all the exercises!), push to your fork, and send your instructors a link to your repo.

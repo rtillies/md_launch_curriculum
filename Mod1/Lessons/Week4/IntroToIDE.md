@@ -32,9 +32,11 @@ We will follow these steps to download Visual Studio Community (a free IDE that 
 ![](/Mod1/Images/Week4/VisualStudioDownloadButton.png)
 3. Click on the VisualStudioSetup.Exe file download
 ![](/Mod1/Images/Week4/EXEfiledownload.png)
-4. When asked if you want to allow this program to make changes to your computer, click `YES`.
-5. Follow the prompts of the download wizard to complete setup.  We will use all of the default settings.
-6. When completed, you should see a screen like this (with fewer options on the left hand side)
+4. Select the ASP.NET Web Development and .NET Desktop Development workspaces. Unselect `IntelliCode` from the right-side panel.
+![](/Mod1/Images/Week4/VisualStudioWorkloads.png)
+5. When asked to sign in to Visual Studio, click `Skip this for now.`
+6. Then, click `Start Visual Studio`
+7. When completed, you should see a screen like this (with fewer options on the left hand side)
 ![](/Mod1/Images/Week4/VisualStudioDownloaded.png)
 
 ### .NET and Different Types of Programs
@@ -117,15 +119,17 @@ You might come across an even more complex suggestion when creating specific cod
 ![](/Mod1/Images/Week4/IntellisenseIf.png)
 
 ### Customization
-The Visual Studio IDE is highly customizable.  There are a lot of changes you _could_ make to the appearance.  One customization that we will definitely want to make is to add the line numbers to the code editor (this will be helpful when describing your code, and debugging).
+The Visual Studio IDE is highly customizable.  There are a lot of changes you _could_ make to the appearance.  One customization that we will make is to remove the `CodeLens` custimization.  CodeLens is a valuable tool that shows us where specific objects are referenced throughout a program, but it also makes our code files a bit messy - take a look at the two screenshots below to see the difference.
+
+![](/Mod1/Images/Week4/WithAndWithoutCodeLens.png)
 
 Follow these steps:
 1. Under `Tools`, select `Options`
 2. Expand `Text Editor`, `All Languages`
-3. Select `General`
-4. Check the box for `Line Numbers` and click `OK`
+3. Select `CodeLens`
+4. Uncheck the box for `Enable CodeLens` and click `OK`
 
-![](/Mod1/Images/Week4/LineNumberOption.png)
+![](/Mod1/Images/Week4/RemoveCodeLens.png)
 
 For more information on customizations, you can review the [Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/ide/personalizing-the-visual-studio-ide?view=vs-2022).
 
@@ -145,9 +149,3 @@ For more information on customizations, you can review the [Microsoft Docs](http
 ## Checks for Understanding
 * What is an IDE?
 * What are some benefits of using an IDE?
-
-
-<!-- Really strong use of visuals/screenshots in this lesson. I think some of the arrows get a little hard to see at times so it might be worth adjusting to a more prominent color/weight, but overall pretty solid!
-
-I am excited to see what the lab looks like for this! 
- -->

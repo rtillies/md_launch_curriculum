@@ -44,14 +44,14 @@ VALUES
     ('Purple Rain',345,23,1),
     ('Raspberry Beret',432,12,1),
     ('Wild Wild Life',345,45,2),
-    ('Vogue', 408, 62, 3),
-    ('La Isla Bonita', 325, 15, 3),
-    ('Express Yourself', 312, 33, 3),
+    ('Vogue', 408, 62, 4),
+    ('La Isla Bonita', 325, 15, 4),
+    ('Express Yourself', 312, 33, 4),
     ('Burning Down the House', 348, 10, 2),
     ('Life During Wartime', 264, 8, 2),
     ('And She Was', 340, 11, 2),
     ('This Must Be the Place', 455, 99, 2),
-    ('Heart of Glass', 343, 3, 4);
+    ('Heart of Glass', 343, 3, 3);
 ```
 
 After you have inserted this data, query to get the following information:

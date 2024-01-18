@@ -84,7 +84,7 @@ There are [many different databases](https://appinventiv.com/blog/top-web-app-da
     * It will take a few minutes for the installer to download.
 2. Open the installer file to start the setup Wizard.  
             ![](/Mod2/Images/Week1/postgresqlInstallerWizard.png)
-3. Click 'Next' through the wizard, keeping all default settings. You will need to enter and confirm a password on the 4th or 5th step - this is the only customization you will do.
+3. Click 'Next' through the wizard, keeping all default settings. You will need to enter and confirm a password on the 4th or 5th step - this is the only customization you will do. Please use `password123` as your password because we will be working in groups so other people will see your password.
 4. On the last step, before you click 'Finish', uncheck the box so that Stack Builder is **not** launched upon completion.
             ![](/Mod2/Images/Week1/postgresqlInstallerWizardLastStep.png)
 5. Open PgAdmin in preparation for the next section
